@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+ http://java.sun.com/xml/ns/javaee/ejb-jar_3_0.xsd"
+	version="3.0">
+	<enterprise-beans>
+		<session>
+			<ejb-name>EnvironmentalResourceInjectionExampleBean</ejb-name>
+			<env-entry>
+				<env-entry-name>groupId</env-entry-name>
+				<env-entry-type>java.lang.String</env-entry-type>
+				<env-entry-value>org.jbpm.examples</env-entry-value>
+			</env-entry>
+			<env-entry>
+				<env-entry-name>artifactIds</env-entry-name>
+				<env-entry-type>java.lang.String</env-entry-type>
+				<env-entry-value>rewards</env-entry-value>
+			</env-entry>
+		</session>
+	</enterprise-beans>
+</ejb-jar>
